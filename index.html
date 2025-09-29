@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Assignment 04 - Celie C</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div id="page">
+
+    <div id="Message-Container">
+      <div id="message">
+        <h1>Yay!</h1>
+        <p>You did it!</p>
+        <p id="moves"></p>
+        <div id="restartBtnDiv">
+          <input id="restartMazeBtn" type="button" onclick="restartMaze()" value="Play Again!" />
+        </div>
+      </div>
+    </div>
+
+    <div id="view">
+      <div id="mazeContainer">
+        <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+      </div>
+    </div>
+
+    <p id="instructions">Use arrow keys to send the art student her energy drink!</p>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
